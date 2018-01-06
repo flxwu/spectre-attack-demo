@@ -1,11 +1,6 @@
 # Spectre Attack Demo (i5-3320M and Intel Xeon v3)
 This shows my own try of Proof of Concept Exploit demonstrating the [Spectre](https://spectreattack.com/) attack. Unfortunately, I have been able to reproduce it smoothly both on my local and on my AWS Server.
 
-### Credits
-Spectre was independently discovered and reported by [Jann Horn](https://twitter.com/tehjh) and [Paul Kocher](https://paulkocher.com/) in collaboration with, [Daniel Genkin](https://www.cis.upenn.edu/~danielg3/) (University of Pennsylvania and University of Maryland), [Mike Hamburg](https://www.shiftleft.org/) (Rambus), [Moritz Lipp](https://mlq.me/) (Graz University of Technology), and [Yuval Yarom](https://cs.adelaide.edu.au/~yval) (University of Adelaide and Data61).
-
-#### Their great researching work is documented in the [Spectre Paper](https://spectreattack.com/spectre.pdf).
-
 ## Exploiting Speculative Execution
 According to the Spectre paper,
 > Spectre attacks trick
@@ -37,3 +32,9 @@ and it worked as well:
 
 
 Seems like we are all [f\*ucked](https://twitter.com/syned/status/948862050306052096).
+
+
+### Credits
+Spectre was independently discovered and reported by [Jann Horn](https://twitter.com/tehjh) and [Paul Kocher](https://paulkocher.com/) in collaboration with, [Daniel Genkin](https://www.cis.upenn.edu/~danielg3/) (University of Pennsylvania and University of Maryland), [Mike Hamburg](https://www.shiftleft.org/) (Rambus), [Moritz Lipp](https://mlq.me/) (Graz University of Technology), and [Yuval Yarom](https://cs.adelaide.edu.au/~yval) (University of Adelaide and Data61).
+
+#### Their great researching work is documented in the [Spectre Paper](https://spectreattack.com/spectre.pdf).
