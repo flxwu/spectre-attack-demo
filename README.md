@@ -1,5 +1,5 @@
 # Spectre Attack Demo (i5-3320M and Intel Xeon v3)
-This shows my own try of Proof of Concept Exploit demonstrating the [Spectre](https://spectreattack.com/) attack. Unfortunately, I have been able to reproduce it smoothly both on my local and on my AWS Server.
+This shows my own try of Proof of Concept Exploit demonstrating the [Spectre](https://spectreattack.com/) attack. Unfortunately, I have been able to reproduce it smoothly both on my local laptop and on my AWS Server.
 
 ## Exploiting Speculative Execution
 According to the Spectre paper,
@@ -22,7 +22,7 @@ and it worked, as seen here:
 
 ![Spectre_i5_ubuntuYakkety.jpeg](Spectre_i5_ubuntuYakkety.jpeg)
 
-Then, I tried it on my **AWS EC2 Instance running an Intel Xeon E5-2676 v3**
+Then, I tried it on my **AWS EC2 Instance running an Intel Xeon E5-2676 v3 on Ubuntu Server 16.04TLS**
 
 ![server_cpu.png](server_cpu.png)
 
